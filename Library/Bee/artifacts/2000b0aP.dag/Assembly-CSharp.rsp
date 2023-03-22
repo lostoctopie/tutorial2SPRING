@@ -302,7 +302,15 @@
 -r:"Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.Flow.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.State.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aP.dag/UnityEngine.UI.ref.dll"
+"Assets/en1.cs"
+"Assets/en2.cs"
+"Assets/en3.cs"
+"Assets/en4.cs"
 "Assets/Scripts/CameraScript.cs"
+"Assets/Scripts/enemy2.cs"
+"Assets/Scripts/enemy3.cs"
+"Assets/Scripts/enemy4.cs"
+"Assets/Scripts/EnemyController.cs"
 "Assets/Scripts/PlayerScript.cs"
 -langversion:9.0
 

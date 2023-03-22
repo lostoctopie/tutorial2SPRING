@@ -12,38 +12,142 @@
 
 
 
-// 0x00000001 System.Void CameraScript::Start()
+// 0x00000001 System.Void en1::Start()
+extern void en1_Start_m9130BF4FAE138D8C86F517D598A5B4A231270EB1 (void);
+// 0x00000002 System.Void en1::Update()
+extern void en1_Update_mD58A7698790AD94EC12668CBC2BA89E50650C908 (void);
+// 0x00000003 System.Void en1::.ctor()
+extern void en1__ctor_m011E488FB30B4F750F2CD3BF88A3B8158C2BB17E (void);
+// 0x00000004 System.Void en2::Start()
+extern void en2_Start_m3A2EEEE5A11D1C703AF6FA71C994AAFEBA3ED628 (void);
+// 0x00000005 System.Void en2::Update()
+extern void en2_Update_m839871E02963C66B912D206DF71370EC0EA5C775 (void);
+// 0x00000006 System.Void en2::.ctor()
+extern void en2__ctor_m0DE1CA00896DB3318789E69C894FD989D471A4D9 (void);
+// 0x00000007 System.Void en3::Start()
+extern void en3_Start_m4EA0F70D118CE12CB141CF28210190AD4C987897 (void);
+// 0x00000008 System.Void en3::Update()
+extern void en3_Update_mD9CB6B677FF8826D73769EE0CCC6867409B3E141 (void);
+// 0x00000009 System.Void en3::.ctor()
+extern void en3__ctor_m821D7B5BF30976760399575A5478384697B2076D (void);
+// 0x0000000A System.Void en4::Start()
+extern void en4_Start_mCB07DCA72906D309B742D8B242B0CD88AD734320 (void);
+// 0x0000000B System.Void en4::Update()
+extern void en4_Update_mE062422AB0D5AD7BEE0C3B56CB679828799CCEB3 (void);
+// 0x0000000C System.Void en4::.ctor()
+extern void en4__ctor_mE73CF49CE475CC1CB9EAC251DF2BEB330FC216DA (void);
+// 0x0000000D System.Void CameraScript::Start()
 extern void CameraScript_Start_mA5B7202B365DD49486C67738FBD1EC84D104BE33 (void);
-// 0x00000002 System.Void CameraScript::LateUpdate()
+// 0x0000000E System.Void CameraScript::LateUpdate()
 extern void CameraScript_LateUpdate_m42F00D6F15A466E628762DC7ADBD8272EF43F583 (void);
-// 0x00000003 System.Void CameraScript::.ctor()
+// 0x0000000F System.Void CameraScript::.ctor()
 extern void CameraScript__ctor_mDCE666CE7EF072645A59FD192F310106688922B2 (void);
-// 0x00000004 System.Void PlayerScript::Start()
+// 0x00000010 System.Void enemy2::Start()
+extern void enemy2_Start_m1E7C519608CE0BD12CFB3AC61F0DC782562B4448 (void);
+// 0x00000011 System.Void enemy2::Update()
+extern void enemy2_Update_m076E5BE4F8E37CE885FD7A4F897076B3C31AB447 (void);
+// 0x00000012 System.Void enemy2::.ctor()
+extern void enemy2__ctor_m7B47A0C1EE869AB9C444A621FDD611BE43574554 (void);
+// 0x00000013 System.Void enemy3::Start()
+extern void enemy3_Start_m9CC3B013F7B5A400CD97DB244D8746295C7C1EC3 (void);
+// 0x00000014 System.Void enemy3::Update()
+extern void enemy3_Update_m02E82E55DB35F871D74C6246AE85ACB1457CDE09 (void);
+// 0x00000015 System.Void enemy3::.ctor()
+extern void enemy3__ctor_m642E59FA7F313FCD54B5F4175C23AB14ECFA2AFD (void);
+// 0x00000016 System.Void enemy4::Start()
+extern void enemy4_Start_m3CC0BFBAD86791A487ABA54BCCC6B38A7254F458 (void);
+// 0x00000017 System.Void enemy4::Update()
+extern void enemy4_Update_m4423B14A0FAFE17487A59E22A7D0FD3165D4A54E (void);
+// 0x00000018 System.Void enemy4::.ctor()
+extern void enemy4__ctor_mE7D2AE03D7AEC4B3018E53D11B61180D538FFE1F (void);
+// 0x00000019 System.Void EnemyController::Start()
+extern void EnemyController_Start_mD47FA99710AFEDA91637E73B4109FC0125032604 (void);
+// 0x0000001A System.Void EnemyController::Update()
+extern void EnemyController_Update_mD4EAAD97042453D8F3F5D623882F24366451F7ED (void);
+// 0x0000001B System.Void EnemyController::.ctor()
+extern void EnemyController__ctor_m984FF7EBF9BF2923A09FA943862B8941E9FFECCD (void);
+// 0x0000001C System.Int32 PlayerScript::get_Lives()
+extern void PlayerScript_get_Lives_mC8A6B0A09FE032233C09F28D0ADA023F4B07D010 (void);
+// 0x0000001D System.Void PlayerScript::set_Lives(System.Int32)
+extern void PlayerScript_set_Lives_m2DAB9F7DB91AD39381256923E94655FB501E055E (void);
+// 0x0000001E System.Void PlayerScript::Start()
 extern void PlayerScript_Start_m0290AFEEFA15E6EF748CB2003346C933C5F65C7E (void);
-// 0x00000005 System.Void PlayerScript::FixedUpdate()
+// 0x0000001F System.Void PlayerScript::FixedUpdate()
 extern void PlayerScript_FixedUpdate_m16A4F78041007E5FF2D7D2C8E9309DE824ABE451 (void);
-// 0x00000006 System.Void PlayerScript::OnCollisionEnter2D(UnityEngine.Collision2D)
+// 0x00000020 System.Void PlayerScript::OnCollisionEnter2D(UnityEngine.Collision2D)
 extern void PlayerScript_OnCollisionEnter2D_m9539367DFFDBFF2BE73F007B2584807CE29C8381 (void);
-// 0x00000007 System.Void PlayerScript::OnCollisionStay2D(UnityEngine.Collision2D)
+// 0x00000021 System.Void PlayerScript::OnCollisionStay2D(UnityEngine.Collision2D)
 extern void PlayerScript_OnCollisionStay2D_mCD25A2969F7BC1EE8CF3B95151F944598684071D (void);
-// 0x00000008 System.Void PlayerScript::.ctor()
+// 0x00000022 System.Void PlayerScript::.ctor()
 extern void PlayerScript__ctor_m204704D8E019627DDF740B7E8B5F9B579CA4FF57 (void);
-static Il2CppMethodPointer s_methodPointers[8] = 
+static Il2CppMethodPointer s_methodPointers[34] = 
 {
+	en1_Start_m9130BF4FAE138D8C86F517D598A5B4A231270EB1,
+	en1_Update_mD58A7698790AD94EC12668CBC2BA89E50650C908,
+	en1__ctor_m011E488FB30B4F750F2CD3BF88A3B8158C2BB17E,
+	en2_Start_m3A2EEEE5A11D1C703AF6FA71C994AAFEBA3ED628,
+	en2_Update_m839871E02963C66B912D206DF71370EC0EA5C775,
+	en2__ctor_m0DE1CA00896DB3318789E69C894FD989D471A4D9,
+	en3_Start_m4EA0F70D118CE12CB141CF28210190AD4C987897,
+	en3_Update_mD9CB6B677FF8826D73769EE0CCC6867409B3E141,
+	en3__ctor_m821D7B5BF30976760399575A5478384697B2076D,
+	en4_Start_mCB07DCA72906D309B742D8B242B0CD88AD734320,
+	en4_Update_mE062422AB0D5AD7BEE0C3B56CB679828799CCEB3,
+	en4__ctor_mE73CF49CE475CC1CB9EAC251DF2BEB330FC216DA,
 	CameraScript_Start_mA5B7202B365DD49486C67738FBD1EC84D104BE33,
 	CameraScript_LateUpdate_m42F00D6F15A466E628762DC7ADBD8272EF43F583,
 	CameraScript__ctor_mDCE666CE7EF072645A59FD192F310106688922B2,
+	enemy2_Start_m1E7C519608CE0BD12CFB3AC61F0DC782562B4448,
+	enemy2_Update_m076E5BE4F8E37CE885FD7A4F897076B3C31AB447,
+	enemy2__ctor_m7B47A0C1EE869AB9C444A621FDD611BE43574554,
+	enemy3_Start_m9CC3B013F7B5A400CD97DB244D8746295C7C1EC3,
+	enemy3_Update_m02E82E55DB35F871D74C6246AE85ACB1457CDE09,
+	enemy3__ctor_m642E59FA7F313FCD54B5F4175C23AB14ECFA2AFD,
+	enemy4_Start_m3CC0BFBAD86791A487ABA54BCCC6B38A7254F458,
+	enemy4_Update_m4423B14A0FAFE17487A59E22A7D0FD3165D4A54E,
+	enemy4__ctor_mE7D2AE03D7AEC4B3018E53D11B61180D538FFE1F,
+	EnemyController_Start_mD47FA99710AFEDA91637E73B4109FC0125032604,
+	EnemyController_Update_mD4EAAD97042453D8F3F5D623882F24366451F7ED,
+	EnemyController__ctor_m984FF7EBF9BF2923A09FA943862B8941E9FFECCD,
+	PlayerScript_get_Lives_mC8A6B0A09FE032233C09F28D0ADA023F4B07D010,
+	PlayerScript_set_Lives_m2DAB9F7DB91AD39381256923E94655FB501E055E,
 	PlayerScript_Start_m0290AFEEFA15E6EF748CB2003346C933C5F65C7E,
 	PlayerScript_FixedUpdate_m16A4F78041007E5FF2D7D2C8E9309DE824ABE451,
 	PlayerScript_OnCollisionEnter2D_m9539367DFFDBFF2BE73F007B2584807CE29C8381,
 	PlayerScript_OnCollisionStay2D_mCD25A2969F7BC1EE8CF3B95151F944598684071D,
 	PlayerScript__ctor_m204704D8E019627DDF740B7E8B5F9B579CA4FF57,
 };
-static const int32_t s_InvokerIndices[8] = 
+static const int32_t s_InvokerIndices[34] = 
 {
 	3439,
 	3439,
 	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3326,
+	2783,
 	3439,
 	3439,
 	2800,
@@ -54,7 +158,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	8,
+	34,
 	s_methodPointers,
 	0,
 	NULL,
